@@ -21,7 +21,7 @@ Proyek ini adalah applikasi sederhana memungkinkan User untuk melakukan CRUD(Cre
 #### CRUD Form
 | ID | Todo | Date | Action |
 | --- | --- | --- | --- |
-- ID akan melakukan aouto number pada kolom form
+- ID akan melakukan auto number pada kolom form
 - Todo menginputkan hasil inputan Todo
 - Date menginputkan tanggal,bulan,tahun yang di pilih
 - Action akan memberikan opsi Edit atau Hapus
