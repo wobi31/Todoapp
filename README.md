@@ -9,3 +9,10 @@ Proyek ini adalah applikasi sederhana memungkinkan User untuk melakukan CRUD(Cre
 - Menambahkan form
 - Mengedit from
 - Menghapus form
+***
+## Cara Pemakaian:
+- Buka index.htmldi peramban web Anda.
+- Masukkan judul Todo dan tanggal jatuh tempo di kolom input.
+- Klik tombol "Kirim" untuk menambahkan tugas.
+- Klik tombol warna latar belakang untuk mengubah warna aplikasi.
+- Klik tombol tautan untuk menavigasi ke situs web terkait.
