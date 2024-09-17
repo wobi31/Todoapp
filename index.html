@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="todo">
+      <h1>Todo App</h1>
+      <hr>
+      <div id="btn" class="color">
+        <button id="btn1">Background Merah</button>
+        <button id="btn2">Background Kuning</button>
+        <button id="btn3">Background Hijau</button>
+        <button id="btn4">Background Biru</button>
+        <button id="btn5">Background putih</button>
+        <button id="btn6">Background Hitam</button>
+        <hr>
+      </div>
+      <div id="btn" class="link">
+        <button id="btn7">Buka Google</button>
+        <button id="btn8">Buka Ducduck</button>
+        <button id="btn9">Buka Youtube</button>
+        <button id="btn10">Buka Twitch</button>
+      </div>
+      <hr>
+      <form>
+        <input type="text" id="text" name="text-input" placeholder="Enter Todo">
+        <input type="date" id="date" name="date-input">
+        <button id="submit">Submit</button>
+      </form>
+      <h4>Todo List</h4>
+      <table id="table" style="border: 1px solid black; width: 600;">
+        <tr>
+          <th>ID</th>
+          <th>Todo</th>
+          <th>Date</th>
+          <th>Action</th>
+        </tr>
+        <tbody id="table-body">
+          <hr>
+    </div>
+  </div>
+  <script src="Bg-color.js"></script>
+  <script src="LInk.js"></script>
+  <script src="form.js"></script>
+</body>
+
+</html>

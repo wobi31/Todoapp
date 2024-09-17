@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'inter';
+  overflow: hidden;
+}
+
+.container {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: start; */
+  gap: 40%;
+  /* height: 100vh; */
+  margin-bottom: 50px;
+  padding: 15%;
+}
+
+.todo {
+  /* height: 50vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+}
+
+.tbody {
+  display: table;
+  vertical-align: middle;
+  unicode-bidi: isolate;
+  border-color: inherit;
+}
+
+button:hover {
+ cursor: pointer;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+#date:hover {
+  cursor: pointer;
+}
+th {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black ;
+}
