@@ -17,5 +17,15 @@ Proyek ini adalah applikasi sederhana memungkinkan User untuk melakukan CRUD(Cre
 - Klik tombol warna latar belakang untuk mengubah warna aplikasi.
 - Klik tombol tautan untuk menavigasi ke situs web terkait.
 ***
+
+#### CRUD Form
+| ID | Todo | Date | Action |
+| --- | --- | --- | --- |
+- ID akan melakukan aouto number pada kolom form
+- Todo menginputkan hasil inputan Todo
+- Date menginputkan tanggal,bulan,tahun yang di pilih
+- Action akan memberikan opsi Edit atau Hapus
+***
+  
 ## Creadit
 Wobi Nurdiansyah 9/17/2024
